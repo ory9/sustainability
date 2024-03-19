@@ -1,6 +1,6 @@
 <?php
 
-    $to = "rockybd1995@gmail.com";
+    $to = "abc@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -15,7 +15,7 @@
 
     $subject = "You have a message from your Cake Template.";
 
-    $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
+    $logo = '#';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
